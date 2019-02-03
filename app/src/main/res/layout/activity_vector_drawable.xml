@@ -1,0 +1,107 @@
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:id="@+id/vector_drawable_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/vector_drawable_animals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/animals"
+                style="@style/vector_item_tv"/>
+
+        <TextView
+                android:id="@+id/vector_drawable_clock"
+                style="@style/vector_item_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clock"/>
+
+        <TextView
+                android:id="@+id/vector_drawable_checkable"
+                style="@style/vector_item_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/checkable"/>
+
+        <TextView
+                android:id="@+id/vector_drawable_countdown"
+                style="@style/vector_item_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/countdown"/>
+
+        <TextView
+                android:id="@+id/vector_drawable_curvedmotion"
+                style="@style/vector_item_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/curvedmotion"/>
+
+        <TextView
+                android:id="@+id/vector_drawable_downloading"
+                style="@style/vector_item_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/downloading"/>
+
+        <TextView
+                android:id="@+id/vector_drawable_fingerprint"
+                style="@style/vector_item_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fingerprint"/>
+
+        <TextView
+                android:id="@+id/vector_drawable_handwriting"
+                style="@style/vector_item_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/handwriting"/>
+
+        <TextView
+                android:id="@+id/vector_drawable_music"
+                style="@style/vector_item_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/music"/>
+        <TextView
+                android:id="@+id/vector_drawable_playpausestop"
+                style="@style/vector_item_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/play_pause_stop"/>
+
+        <TextView
+                android:id="@+id/vector_drawable_pathmorph"
+                style="@style/vector_item_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pathmorph"/>
+
+
+        <TextView
+                android:id="@+id/vector_drawable_progressbar"
+                style="@style/vector_item_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/progressbar"/>
+
+        <TextView
+                android:id="@+id/vector_drawable_trimclip"
+                style="@style/vector_item_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trimclip"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -10,8 +10,24 @@
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+
+
+
+<style name="vector_item_tv">
+    <item name="android:minHeight">?attr/listPreferredItemHeightSmall</item>
+    <item name="android:paddingLeft">?attr/listPreferredItemPaddingLeft</item>
+    <item name="android:paddingRight">?attr/listPreferredItemPaddingRight</item>
+    <item name="android:gravity">start|center_vertical</item>
+    <item name="android:background">?attr/selectableItemBackground</item>
+    <item name="android:textAppearance">@android:style/TextAppearance.Material.Title</item>
+</style>
+
+
 
 </resources>

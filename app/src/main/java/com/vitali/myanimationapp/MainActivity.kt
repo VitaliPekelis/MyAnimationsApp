@@ -1,5 +1,6 @@
 package com.vitali.myanimationapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
@@ -8,6 +9,7 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.vitali.myanimationapp.vectordrawable.MainVectorDrawableActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 
@@ -56,11 +58,17 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }
     }
 
+
+    //-----------------------------------------------------------------------------
+    // NavigationView.OnNavigationItemSelectedListener - implementation
+    //-----------------------------------------------------------------------------
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        // Handle navigation view item clicks here.
+
+        var intent:Intent? = null
+
         when (item.itemId) {
-            R.id.nav_camera -> {
-                // Handle the camera action
+            R.id.vector_drawable_animation -> {
+                intent = Intent(this, MainVectorDrawableActivity::class.java)
             }
             R.id.nav_gallery -> {
 
@@ -71,12 +79,16 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_manage -> {
 
             }
-            R.id.nav_share -> {
+            /*R.id.nav_share -> {
 
             }
             R.id.nav_send -> {
 
-            }
+            }*/
+        }
+
+        intent?.let{
+            startActivity(it)
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)
