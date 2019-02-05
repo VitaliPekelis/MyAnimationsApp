@@ -39,7 +39,11 @@ class MainVectorDrawableActivity : AppCompatActivity() , View.OnClickListener{
             R.id.vector_drawable_animals ->
                 intent = Intent(this,AnimalsActivity::class.java)
 
+            R.id.vector_drawable_clock ->
+                intent = Intent(this, ClockActivity::class.java)
 
+            R.id.vector_drawable_checkable ->
+                intent = Intent(this, CheckableActivity::class.java)
 
         }
 

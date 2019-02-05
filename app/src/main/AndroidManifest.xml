@@ -9,6 +9,10 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".vectordrawable.CheckableActivity">
+        </activity>
+        <activity android:name=".vectordrawable.ClockActivity">
+        </activity>
         <activity android:name=".vectordrawable.AnimalsActivity">
         </activity>
         <activity android:name=".vectordrawable.MainVectorDrawableActivity">
