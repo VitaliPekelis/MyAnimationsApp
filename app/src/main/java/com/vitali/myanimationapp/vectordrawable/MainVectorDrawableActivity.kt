@@ -1,7 +1,7 @@
 package com.vitali.myanimationapp.vectordrawable
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.vitali.myanimationapp.R
@@ -44,6 +44,9 @@ class MainVectorDrawableActivity : AppCompatActivity() , View.OnClickListener{
 
             R.id.vector_drawable_checkable ->
                 intent = Intent(this, CheckableActivity::class.java)
+
+            R.id.vector_drawable_countdown ->
+                intent = Intent(this, CounterActivity::class.java)
 
         }
 

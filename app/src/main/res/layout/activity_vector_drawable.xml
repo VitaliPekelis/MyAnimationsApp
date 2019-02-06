@@ -37,7 +37,7 @@
                 style="@style/vector_item_tv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/countdown"/>
+                android:text="@string/counter"/>
 
         <TextView
                 android:id="@+id/vector_drawable_curvedmotion"

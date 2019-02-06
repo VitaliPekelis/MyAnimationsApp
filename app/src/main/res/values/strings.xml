@@ -10,7 +10,7 @@
     <string name="animals">Animals</string>
     <string name="clock">Clocks</string>
     <string name="checkable">Checkable</string>
-    <string name="countdown">Countdown</string>
+    <string name="counter">Digit Counter</string>
     <string name="curvedmotion">Curved motion</string>
     <string name="downloading">Downloading</string>
     <string name="fingerprint">Finger Print</string>
@@ -31,4 +31,6 @@
     <string name="elephant_text">Elephant</string>
     <string name="hide_fab">Hide FAB</string>
     <string name="show_fab">Show FAB</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
 </resources>
