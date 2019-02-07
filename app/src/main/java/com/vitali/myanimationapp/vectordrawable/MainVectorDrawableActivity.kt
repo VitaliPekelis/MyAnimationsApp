@@ -34,10 +34,9 @@ class MainVectorDrawableActivity : AppCompatActivity() , View.OnClickListener{
     {
         var intent:Intent? = null
 
-        when(v.id)
-        {
+        when(v.id) {
             R.id.vector_drawable_animals ->
-                intent = Intent(this,AnimalsActivity::class.java)
+                intent = Intent(this, AnimalsActivity::class.java)
 
             R.id.vector_drawable_clock ->
                 intent = Intent(this, ClockActivity::class.java)
@@ -47,6 +46,13 @@ class MainVectorDrawableActivity : AppCompatActivity() , View.OnClickListener{
 
             R.id.vector_drawable_countdown ->
                 intent = Intent(this, CounterActivity::class.java)
+
+            R.id.vector_drawable_curvedmotion ->
+                intent = Intent(this, CurvedMotionActivity::class.java)
+
+            R.id.vector_drawable_downloading ->
+                intent = Intent(this, DownloadingActivity::class.java)
+
 
         }
 
